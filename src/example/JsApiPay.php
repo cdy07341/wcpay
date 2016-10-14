@@ -3,6 +3,7 @@ namespace example;
 use lib\WxPayConfig;
 use lib\WxPayException;
 use lib\WxPayApi;
+use lib\data\WxPayJsApiPay;
 /**
  * 
  * JSAPI支付实现类
@@ -76,7 +77,7 @@ class JsApiPay
 		{
 			throw new WxPayException("参数错误");
 		}
-		$jsapi = new \WxPayJsApiPay();
+		$jsapi = new WxPayJsApiPay();
 		$jsapi->SetAppid($UnifiedOrderResult["appid"]);
 		$timeStamp = time();
 		$jsapi->SetTimeStamp("$timeStamp");
