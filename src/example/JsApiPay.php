@@ -3,8 +3,6 @@ namespace example;
 use lib\WxPayConfig;
 use lib\WxPayException;
 use lib\WxPayApi;
-// require_once "../lib/WxPay.Api.php";
-require_once APP_PATH . '/application/library/pay/wpay/lib/WxPayData.php';
 /**
  * 
  * JSAPI支付实现类

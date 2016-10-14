@@ -36,7 +36,7 @@ class WxPayConfig
 	 * @var path
 	 */
 	const SSLCERT_PATH = '/opt/www/weixin/application/library/pay/wpay/cert/apiclient_cert.pem';
-	const SSLKEY_PATH = '/opt/www//weixin/application/library/pay/wpay/cert/apiclient_key.pem';
+	const SSLKEY_PATH = '/opt/www/weixin/application/library/pay/wpay/cert/apiclient_key.pem';
 	
 	//=======【curl代理设置】===================================
 	/**

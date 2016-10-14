@@ -12,7 +12,8 @@
     },
     "autoload": {
         "psr-4": {
-            "lib\\": "src/lib/"
+            "lib\\": "src/lib/",
+            "example\\": "src/example/"
         }
     }
 }
